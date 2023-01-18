@@ -1,6 +1,5 @@
 var url = "https://api.thecatapi.com/v1/images/search?limit=10";
 var imageElement = document.createElement("img");
-imageElement.className = ("catImage");
 var p = fetch(url)
     .then(function (response) {
     return response.json();
